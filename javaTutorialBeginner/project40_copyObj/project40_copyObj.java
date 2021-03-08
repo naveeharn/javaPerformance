@@ -22,6 +22,8 @@ public class project40_copyObj {
         System.out.println(listCar[3]);
         System.out.println(listCar[3].getMake());
 
+        listCar[4] = new Car("tesla", "s", 2020);
+
 
     }
 }
