@@ -11,16 +11,19 @@ public class project42_polymorphism {
         Car car = new Car();
         Bicycle bicycle = new Bicycle();
         Boat boat = new Boat();
+        Vehicle vehicle1 = new Vehicle();
 
         //superclass        //subclass extends Vehicle
-        Vehicle[] racers = {car,bicycle,boat};
+        Vehicle[] racers = {car,bicycle,boat,vehicle1};
 
         car.go();
         bicycle.go();
         boat.go();
+        
 
         for (Vehicle vehicle : racers) {
             vehicle.go();
         }
+
     }
 }
