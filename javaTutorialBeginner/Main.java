@@ -175,19 +175,19 @@ public class Main {
         }
     * */
         //15 1D Arrays 
-    /*
+    
         // String[] cars = {"ToyoTU","XiaO","Tessa"};
         String[] cars = new String[3];
         cars[0] = "ToyoTU";
         cars[1] = "XiaO";
-s[2] = "Tessa";
+        cars[2] = "Tessa";
         JOptionPane.showMessageDialog(null, cars);
         cars[0] = "Lykan";
         for (String string : cars) {
             System.out.println(string);
         }
         JOptionPane.showMessageDialog(null, cars);
-    * */
+    
         //16 2D Arrays
     /*
         String[][] cars = new String[3][3];
