@@ -12,6 +12,8 @@ public class project47_fileReader {
      * read() returns an int value which cotains the byte value 
      * when read() return -1, there is no more data to be read
      * 
+     * //https://www.asciiart.eu
+     * 
      * @param args
      */
     public static void main(String[] args) {
