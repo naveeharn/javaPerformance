@@ -28,7 +28,7 @@ public class project48_Audio {
  
         while (!response.equals("Q")) {
             System.out.println("press P to play, press S to stop, press R to reset, press Q to Quit");
-            System.out.print("Enter your FUCKING choice : ");
+            System.out.print("Enter your F*CKING choice : ");
             response = scanner.next();
             response = response.toUpperCase();
 
@@ -42,14 +42,14 @@ public class project48_Audio {
                 case "R":
                     clip.setMicrosecondPosition(20000000);
                     break;
-                default:
-
+                case "Q":
+                    clip.close();
+                    break;
+                default:    
+                    System.out.println("Not a valid response");
                     break;
             }
         }
-
-        clip.start();
-
-        
+        System.out.println("Thank you ");
     }
 }
