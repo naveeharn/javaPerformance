@@ -20,6 +20,7 @@ public class project46_fileWriter {
 
         try (FileWriter writer = new FileWriter("javaTutorialBeginner/project46_fileWriter/poem.txt")) {
             writer.write("new message \n\n fuck you \n\n I na Hee");
+            writer.append("\n(A poem by Kuay)");
             writer.close();
         } catch (Exception e) {
             //TODO: handle exception
